@@ -19,6 +19,6 @@ export default function CustomButton({ link, title, onChange, cView, cText, icon
                     <MaterialIcons name={icon} color={color} size={size}/>
                 </StyledView>
             </TouchableOpacity>
-        </Link>
+        </Link>     
     );
 } 

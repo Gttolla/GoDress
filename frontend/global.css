@@ -2,6 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.block-container{
-    @apply bg-[#eeee] rounded-xl flex items-center justify-center
-}
