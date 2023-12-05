@@ -49,9 +49,9 @@ export default function Login() {
                     <TextInput secureTextEntry={true} value={senha} placeholder="Senha" autoCapitalize="none" onChangeText={(text) => setSenha(text)} style={styles.input} />
                 </View>
 
-                {loading ? <ActivityIndicator size="large" color="#0000ff" /> :
+                {loading ? <ActivityIndicator size="large" color="#A52BD0" /> :
                     <View style={{display: 'flex', gap: 10}}>
-                        <Button title="Login" onPress={signIn} color={'#000'}/>
+                        <Button title="Login" onPress={signIn} color={'#A52BD0'}/>
                         <Button title="Registrar-se" onPress={signUp} color={'#000'}/>
                     </View>
                 }

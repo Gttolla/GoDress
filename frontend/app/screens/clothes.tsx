@@ -4,8 +4,6 @@ export default function Clothes(){
     return(
         <View style={styles.container}>
             <Text style={{fontWeight: 'bold', fontSize: 30}}>Armário</Text>
-
-            
         </View>
     );
 }

@@ -4,8 +4,8 @@ import React, { useState, useEffect } from 'react'
 import { User, onAuthStateChanged } from 'firebase/auth';
 
 import Login from './app/screens/login';
-import Clothes from './app/screens/clothes';
 import { FIREBASE_AUTH } from './FirebaseConfig';
+import Home from './app/screens/home';
 
 const Stack = createNativeStackNavigator();
 
@@ -13,8 +13,8 @@ const InsideStack = createNativeStackNavigator();
 
 function InsideLayout() {
   return (
-    <InsideStack.Navigator initialRouteName='Clothes'>
-      <InsideStack.Screen name='Clothes' component={Clothes} options={{ headerShown: false }} />
+    <InsideStack.Navigator initialRouteName='Home'>
+      <InsideStack.Screen name='Home' component={Home} options={{ headerShown: false }} />
     </InsideStack.Navigator>
   );
 }
